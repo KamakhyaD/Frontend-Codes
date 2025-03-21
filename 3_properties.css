@@ -1,0 +1,32 @@
+h1{
+
+    padding: 20px;
+    border: 1px solid var(--main-text-color)
+   
+}
+
+:root{
+    --main-bg-color: grey;
+    --main-text-color: #333;
+}
+body{
+    background-color: black;
+    color: var(--main-text-color);
+    background-image: none;
+}
+.container{
+    background-color: var(--main-bg-color) important;
+    color: var(--main-text-color);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid var(--main-text-color);
+    overflow: hidden;
+    height: 200px;
+    font-style: oblique;
+    font-size: 20px;
+    color: var(--main-text-color);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    
+    
+}
